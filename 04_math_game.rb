@@ -66,10 +66,6 @@ class Game
     answer?
   end
 
-  def game_over?
-    @life <= 0
-  end
-
   def win?
     if @player1.life == 0
       puts "#{@player2.name} wins with a score of #{@player2.life}/3"
